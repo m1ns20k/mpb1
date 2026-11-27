@@ -1,0 +1,57 @@
+{
+ "title": "Making Plastic Beats vol.1 QR",
+ "cards": [
+  {
+   "path": "c5/",
+   "page": 5,
+   "kind": "copy",
+   "title": "리듬부터 받기",
+   "chars": 264
+  },
+  {
+   "path": "c6/",
+   "page": 6,
+   "kind": "copy",
+   "title": "내 리듬을 지도로 그리기",
+   "chars": 135
+  },
+  {
+   "path": "s6/",
+   "page": 6,
+   "kind": "listen",
+   "title": "기본 리듬",
+   "audio": "example.mp3",
+   "seconds": 8
+  },
+  {
+   "path": "c9/",
+   "page": 9,
+   "kind": "copy",
+   "title": "빌드업과 드랍 넣기",
+   "chars": 238
+  },
+  {
+   "path": "s11/",
+   "page": 11,
+   "kind": "listen",
+   "title": "드랍이 있는 16마디",
+   "audio": "example.mp3",
+   "seconds": 32
+  },
+  {
+   "path": "c14/",
+   "page": 14,
+   "kind": "copy",
+   "title": "시작과 끝 붙이기",
+   "chars": 297
+  },
+  {
+   "path": "s15/",
+   "page": 15,
+   "kind": "listen",
+   "title": "완성곡",
+   "audio": "example.mp3",
+   "seconds": 48
+  }
+ ]
+}
