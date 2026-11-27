@@ -2,64 +2,23 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>시작과 끝 붙이기 · 14쪽</title>
-<style>
-:root{--bg:#f6f6f3;--card:#fff;--fg:#121211;--muted:#66655f;--line:#dcdbd4;--soft:#ecebe5;--accent:#121211;--accent-ink:#fff;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#121211;--card:#1b1b19;--fg:#efeee8;--muted:#a09f97;--line:#33322e;--soft:#262623;--accent:#efeee8;--accent-ink:#121211;color-scheme:dark}}
-*{box-sizing:border-box}
-html{background:var(--bg)}
-body{margin:0;word-break:keep-all;overflow-wrap:anywhere;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;padding:max(20px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(40px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
-.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
-.kicker{margin:0;font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-h1{margin:0;font-size:24px;line-height:1.25}
-h2{margin:0;font-size:17px;line-height:1.35}
-.lede{margin:0;color:var(--muted);font-size:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
-.prompt{margin:0;background:var(--soft);border-radius:4px;padding:14px;font-size:16px;line-height:1.7;white-space:pre-wrap;word-break:keep-all;overflow-wrap:anywhere;-webkit-user-select:text;user-select:text}
-.note,.status{margin:0;font-size:13px;color:var(--muted)}
-.status{min-height:1.5em}
-.btns{display:flex;flex-wrap:wrap;gap:8px}
-.btn{font:inherit;font-weight:600;border-radius:4px;padding:13px 18px;min-height:48px;cursor:pointer;border:1px solid var(--fg);background:var(--card);color:var(--fg);text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:1 1 150px}
-.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.btn:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
-ol.steps{margin:0;padding-left:1.3em;font-size:14px;color:var(--muted)}
-details{font-size:14px;color:var(--muted)}
-summary{cursor:pointer;padding:6px 0}
-pre.code{margin:8px 0 0;padding:12px;background:var(--soft);border-radius:4px;font:12.5px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--fg);overflow-x:auto;white-space:pre}
-.list{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
-.list a{display:flex;gap:12px;align-items:baseline;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:6px;color:var(--fg);text-decoration:none}
-.list a:focus-visible,.list a:hover{border-color:var(--fg)}
-.pg{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--muted);min-width:3.2em}
-.kind{margin-left:auto;font-size:13px;color:var(--muted);white-space:nowrap}
-.chap{margin:10px 0 -4px;font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.08em;color:var(--muted)}
-.back{font-size:14px;color:var(--fg)}
-</style>
+<meta name="color-scheme" content="light dark">
+<title>14쪽 문장</title>
+<style>html{min-height:100%;cursor:pointer;-webkit-tap-highlight-color:transparent}body{margin:24px 20px;font:17px/1.7 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;word-break:keep-all;overflow-wrap:anywhere}#s{margin-top:24px;font-size:15px;opacity:.6}</style>
 </head>
 <body>
-<div class="wrap">
-<p class="kicker">Making Plastic Beats · vol.1 · 14쪽</p>
-<h1>시작과 끝 붙이기</h1>
-<section class="card">
-<p class="prompt" id="prompt">지금 코드는 그대로 두고, 앞에 4마디짜리 시작과 뒤에 4마디짜리 끝을 붙여서 처음부터 끝까지 이어지는 한 곡으로 만들어 줘. 시작과 끝에는 드럼을 거의 빼고 잔잔한 피아노 화음(// 다앙)과 치만 나오게 하고, 화음은 드랍 뒤쪽 절반에도 한 번 더 들어와서 그 부분이 곡에서 가장 꽉 차게 해 줘. 구간은 4마디나 8마디 단위로 나누고, 어느 마디에서 어떤 소리가 들어오고 빠지는지 ●와 ·로 그린 표를 먼저 보여 줘. 줄마다 // 쿵, // 다앙 같은 이름표를 붙이고, Strudel에서 바로 실행되는 전체 코드를 한 번에 줘.</p>
-<p class="note">이 문장 아래에 2장에서 받은 내 코드를 붙여서 보낸다.</p>
-<div class="btns">
-<button class="btn primary" type="button" id="copy">문장 복사</button>
-<a class="btn" href="https://claude.ai/new" target="_blank" rel="noopener">클로드 열기</a>
-</div>
-<p class="status" id="status" role="status" aria-live="polite"></p>
-<ol class="steps"><li>문장 복사를 누른다.</li><li>클로드 대화창에 붙여 넣어 보낸다.</li></ol>
-</section>
-<a class="back" href="../index.html">QR 전체 보기</a>
-</div>
+<p id="t">지금 코드는 그대로 두고, 앞에 4마디짜리 시작과 뒤에 4마디짜리 끝을 붙여서 처음부터 끝까지 이어지는 한 곡으로 만들어 줘. 시작과 끝에는 드럼을 거의 빼고 잔잔한 피아노 화음(// 다앙)과 치만 나오게 하고, 화음은 드랍 뒤쪽 절반에도 한 번 더 들어와서 그 부분이 곡에서 가장 꽉 차게 해 줘. 구간은 4마디나 8마디 단위로 나누고, 어느 마디에서 어떤 소리가 들어오고 빠지는지 ●와 ·로 그린 표를 먼저 보여 줘. 줄마다 // 쿵, // 다앙 같은 이름표를 붙이고, Strudel에서 바로 실행되는 전체 코드를 한 번에 줘.</p>
+<p id="s">화면을 누르면 복사</p>
 <script>
-function copyText(text, statusEl, box, okMsg){
-  function done(){ statusEl.textContent = okMsg; }
-  function selectBox(){ try{ var r=document.createRange(); r.selectNodeContents(box); var s=window.getSelection(); s.removeAllRanges(); s.addRange(r); }catch(e){} statusEl.textContent = "자동 복사가 막혀 있어 글을 선택해 두었다. 길게 눌러 복사하면 된다."; }
-  function legacy(){ try{ var t=document.createElement("textarea"); t.value=text; t.setAttribute("readonly",""); t.style.position="fixed"; t.style.opacity="0"; t.style.top="0"; document.body.appendChild(t); t.focus(); t.select(); t.setSelectionRange(0, text.length); var ok=document.execCommand("copy"); document.body.removeChild(t); if(ok) done(); else selectBox(); }catch(e){ selectBox(); } }
-  try{ if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done, legacy); } else legacy(); }catch(e){ legacy(); }
-}
-var T="지금 코드는 그대로 두고, 앞에 4마디짜리 시작과 뒤에 4마디짜리 끝을 붙여서 처음부터 끝까지 이어지는 한 곡으로 만들어 줘. 시작과 끝에는 드럼을 거의 빼고 잔잔한 피아노 화음(// 다앙)과 치만 나오게 하고, 화음은 드랍 뒤쪽 절반에도 한 번 더 들어와서 그 부분이 곡에서 가장 꽉 차게 해 줘. 구간은 4마디나 8마디 단위로 나누고, 어느 마디에서 어떤 소리가 들어오고 빠지는지 ●와 ·로 그린 표를 먼저 보여 줘. 줄마다 // 쿵, // 다앙 같은 이름표를 붙이고, Strudel에서 바로 실행되는 전체 코드를 한 번에 줘.";document.getElementById("copy").addEventListener("click",function(){copyText(T,document.getElementById("status"),document.getElementById("prompt"),"복사했다. 클로드 대화창에 붙여 넣으면 된다.");});</script>
+var T="지금 코드는 그대로 두고, 앞에 4마디짜리 시작과 뒤에 4마디짜리 끝을 붙여서 처음부터 끝까지 이어지는 한 곡으로 만들어 줘. 시작과 끝에는 드럼을 거의 빼고 잔잔한 피아노 화음(// 다앙)과 치만 나오게 하고, 화음은 드랍 뒤쪽 절반에도 한 번 더 들어와서 그 부분이 곡에서 가장 꽉 차게 해 줘. 구간은 4마디나 8마디 단위로 나누고, 어느 마디에서 어떤 소리가 들어오고 빠지는지 ●와 ·로 그린 표를 먼저 보여 줘. 줄마다 // 쿵, // 다앙 같은 이름표를 붙이고, Strudel에서 바로 실행되는 전체 코드를 한 번에 줘.",s=document.getElementById("s"),t=document.getElementById("t");
+function ok(){s.textContent="복사 완료";}
+function pick(){try{var r=document.createRange();r.selectNodeContents(t);var g=getSelection();g.removeAllRanges();g.addRange(r);}catch(e){}s.textContent="길게 눌러 복사";}
+function old(){try{var a=document.createElement("textarea");a.value=T;a.setAttribute("readonly","");a.style.cssText="position:fixed;top:0;opacity:0";document.body.appendChild(a);a.focus();a.select();a.setSelectionRange(0,T.length);var k=document.execCommand("copy");document.body.removeChild(a);k?ok():pick();}catch(e){pick();}}
+function copy(){try{navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(T).then(ok,old):old();}catch(e){old();}}
+document.addEventListener("click",copy);
+try{navigator.clipboard.writeText(T).then(ok,function(){});}catch(e){}
+</script>
 </body>
 </html>
